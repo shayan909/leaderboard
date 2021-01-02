@@ -1,0 +1,98 @@
+body{
+  background-color: lightblue;
+}
+.student {
+  width: 700px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 18px;
+}
+
+.left {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.right {
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+
+h2.studentName {
+  margin: 0px;
+  padding: 0px;
+}
+
+p.universityName {
+  padding: 0px;
+  margin: 0px;
+}
+
+.score {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+button.addScorebtn {
+  border: none;
+  background: red;
+  color: white;
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  line-height: 16px;
+  text-align: center;
+  position: relative;
+  top: -3px;
+  left: 7px;
+}
+
+button.minusScorebtn {
+  border: none;
+  background: blue;
+  color: white;
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  line-height: 16px;
+  text-align: center;
+  position: relative;
+  top: -3px;
+  left: 7px;
+}
+
+button.addScorebtn:hover {
+  background-color: green;
+}
+
+button.minusScorebtn:hover {
+  background-color: green;
+}
+
+p.universityName #Success {
+  background: green;
+  color: white;
+  line-height: 17px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+p.universityName #Fail {
+  background: red;
+  color: white;
+  line-height: 17px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
